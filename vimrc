@@ -116,6 +116,7 @@ set foldtext=MyFoldText()
 " }}}
 
 " Editor layout {{{
+set term=xterm-256color
 set termencoding=utf-8
 set encoding=utf-8
 set lazyredraw                  " don't update the display while executing macros
