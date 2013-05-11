@@ -620,13 +620,13 @@ if has("gui_running")
     "set guifont=Ubuntu\ Mono:h18 linespace=3
     set guifont=Source\ Code\ Pro\ Light:h14 linespace=0
 
-    "colorscheme molokai
+    colorscheme molokai
     "colorscheme railscat
     "colorscheme kellys
     "colorscheme wombat256
     "colorscheme mustang
     "colorscheme mustang_silent
-    colorscheme badwolf
+    "colorscheme badwolf
 
     " Remove toolbar, left scrollbar and right scrollbar
     set guioptions-=T
@@ -638,14 +638,14 @@ else
     set bg=dark
 
     "colorscheme mustang_silent
-    "colorscheme molokai
+    colorscheme molokai
     "colorscheme railscat
     "colorscheme kellys
     "colorscheme molokai_deep
     "colorscheme wombat256
     "colorscheme mustang
     "colorscheme mustang_silent
-    colorscheme badwolf
+    "colorscheme badwolf
 endif
 
 " Pulse ------------------------------------------------------------------- {{{
