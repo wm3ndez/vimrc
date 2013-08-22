@@ -22,6 +22,9 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+" Allow vim to read files as UTF8
+scriptencoding utf-8
+
 " Use pathogen to easily modify the runtime path to include all plugins under
 " the ~/.vim/bundle directory
 filetype off                    " force reloading *after* pathogen loaded
